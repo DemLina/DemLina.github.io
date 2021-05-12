@@ -712,7 +712,7 @@ hr{
     background-color: #44C697;
     transition: linear .2s;
 }
-.categories__category-item:hover .categories__name, .categories__price{
+.categories__category-item:hover .categories__name, .categories__category-item:hover .categories__price{
     color: #fff;
     transition: linear .2s;
 }
