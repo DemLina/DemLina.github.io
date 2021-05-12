@@ -697,6 +697,13 @@ hr{
     color: #BCBDBB;
 
 }
+.page-up{
+    position: fixed;
+    bottom: 200px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 1111;
+}
 .categories__name, .categories__information, .categories__price{
     transition: linear .2s;
 }
@@ -1172,6 +1179,13 @@ hr{
     .burger {
         display: none;
     
+    }
+    .page-up{
+        position: fixed;
+        bottom: 480px;
+        left: 50px;
+        cursor: pointer;
+        z-index: 1111;
     }
 
 }
