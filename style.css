@@ -194,6 +194,16 @@ hr{
     align-items: center;
 
 }
+.header__top-link{
+    transition: linear .2s;
+    border-bottom: 3px solid #44c69600;
+
+}
+.header__top-link:hover{
+    transition: linear .2s;
+    border-bottom: 3px solid #44c696;
+
+}
 .header__top-link--active{
     border-bottom: 3px solid #44C697;
 }
@@ -230,8 +240,6 @@ hr{
     margin: 15px;
 }
 
-.header {
-}
 
 .header__content{
     padding-bottom: 15px;
@@ -258,9 +266,6 @@ hr{
     margin-top: 30px;
 }
 
-.header__submenu-item{
-
-}
 
 .header__link{
     display: flex;
@@ -692,6 +697,25 @@ hr{
     color: #BCBDBB;
 
 }
+.categories__name, .categories__information, .categories__price{
+    transition: linear .2s;
+}
+.categories__category-item{
+    color: initial;
+    transition: linear .2s;
+}
+.categories__category-item:hover{
+    margin-top: -15px;
+    transition: linear .2s;
+}
+.categories__category-item:hover .categories__information{
+    background-color: #44C697;
+    transition: linear .2s;
+}
+.categories__category-item:hover .categories__name, .categories__price{
+    color: #fff;
+    transition: linear .2s;
+}
 
 .categories__btn{
     display: flex;
@@ -1067,9 +1091,9 @@ hr{
         margin: 30px 60px; 
    }
    .categories__category{
-    grid-template-columns: repeat(2,1fr);
-    gap: 50px 30px;
-    margin-top: 87px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px 30px;
+        margin-top: 87px;
     }
     .about-section h2{
         margin-bottom: 40px;
